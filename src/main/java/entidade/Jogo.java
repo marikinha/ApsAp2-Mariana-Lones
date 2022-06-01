@@ -22,7 +22,16 @@ public class Jogo {
 	@Column(name = "Data_Criação")
 	private Date dataCriacao;
 	private Integer v1,v2,v3,v4,v5,v6,v7,v8,v9,v10;
+	private Integer numeros;
 	
+	
+	
+	public Integer getNumeros() {
+		return numeros;
+	}
+	public void setNumeros(Integer numeros) {
+		this.numeros = numeros;
+	}
 	public Integer getId() {
 		return id;
 	}

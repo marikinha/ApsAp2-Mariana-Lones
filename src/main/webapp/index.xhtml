@@ -17,7 +17,10 @@
 					<p:outputLabel value="Descricao"/>
 					<p:inputText value="#{jogoBean.jogo.descricao}" id="descricao" required="true" requiredMessage="Campo nome é obrigatório"/>
 					<p:message for="descricao"/>
-										
+					
+					<p:outputLabel value="Numeros"/>
+				    <p:inputText value="#{jogoBean.jogo.numeros}" id="numeros" required="true" requiredMessage="Campo nome é obrigatório"/>
+					<p:message for="numeros"/>
 				
 					<p:outputLabel value="DataCriacao"/>
 					<p:calendar value="#{jogoBean.jogo.dataCriacao}" id="dataCriacao" showOn="button"/>
